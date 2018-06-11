@@ -1,11 +1,11 @@
 /* eslint-env node */
 'use strict';
 const path = require('path');
-const webpack = require('webpack');;
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-var CSSSplitWebpackPlugin = require('css-split-webpack-plugin').default;
+const CSSSplitWebpackPlugin = require('css-split-webpack-plugin').default;
 const merge = require('webpack-merge');
 const devProxy = require('./devProxy');
 const autoprefixer = require('autoprefixer');
