@@ -40,7 +40,7 @@ class Open extends Component {
           </div>
           <div className="no">
             <span className='ford'>商城柜编号:</span>
-            <span className='bad'>{scan.container.containerNo}柜{scan.container.boxNo}箱子</span>
+            <span className='bad'>{scan.container.additionalInformation}</span>
           </div>
         </div>
         {
